@@ -4,7 +4,7 @@ WORKDIR /Space Shooter Pygame
 
 COPY . .
 
-ENV DISPLAY=:0
+ENV DISPLAY=:
 
 RUN pip install -r requirements.txt
 
